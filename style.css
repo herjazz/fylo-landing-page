@@ -1,0 +1,21 @@
+/* Stylesheet for fylo 2-col project */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /* Set color variables */
+  --very-dark-blue: hsl(243deg 87% 12%);
+  --desaturated-blue: hsl(238deg 22% 44%);
+  --bright-blue: hsl(224deg 93% 58%);
+  --moderate-cyan: hsl(170deg 45% 43%);
+  --light-gray: hsl(0deg 0% 75%);
+  --light-grayish-blue: hsl(240deg 75% 98%);
+
+  /* Set dimension variables */
+  --desktop-width: 1440px;
+  --mobile-width: 375px;
+}
