@@ -37,8 +37,18 @@ h2,
   text-align: center;
 }
 
+.info,
+.share {
+  color: var(--very-dark-blue);
+}
+
+.share {
+  background-color: var(--light-grayish-blue);
+}
+
 .call {
   background-color: var(--desaturated-blue);
+  color: var(--light-grayish-blue)
 }
 
 footer {
