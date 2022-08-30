@@ -44,9 +44,13 @@ header {
   display: flex;
 }
 
+header .logo {
+  height: 50%;
+}
+
 header nav {
-  margin-left: auto;
-  align-self: center;
+  margin-inline-start: auto;
+  padding-block-start: 6px;
 }
 
 header nav ul {
@@ -95,13 +99,13 @@ footer nav {
 }
 
 .bottom-menu li {
-  padding-top: 10px;
+  padding-block-start: 10px;
 }
 
 footer .logo {
-  /* SRC https://stackoverflow.com/a/53336754 */
+  /* Hat tip - https://stackoverflow.com/a/53336754 */
   filter: brightness(0) saturate(100%) invert(100%) sepia(91%) hue-rotate(191deg) contrast(101%);
-  padding-top: 40px;
+  padding-block-start: 40px;
 }
 
 .contact-info {
@@ -110,11 +114,11 @@ footer .logo {
 }
 
 .phone::before {
-  content: url(./images/icon-phone.svg);
-  margin-right: 15px;
+  content: url("./images/icon-phone.svg");
+  margin-inline-end: 15px;
 }
 
 .email::before {
-  content: url(./images/icon-email.svg);
-  margin-right: 15px;
+  content: url("./images/icon-email.svg");
+  margin-inline-end: 15px;
 }
