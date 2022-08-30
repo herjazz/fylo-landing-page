@@ -25,6 +25,11 @@ body {
   font-weight: 400;
 }
 
+h2,
+.top-menu a{
+  font-family: 'Raleway', sans-serif;
+}
+
 .call {
   background-color: var(--desaturated-blue);
 }
