@@ -31,6 +31,20 @@ footer {
   padding: 30px;
 }
 
+header {
+  display: flex;
+}
+
+header nav {
+  margin-left: auto;
+  align-self: center;
+}
+
+header nav ul {
+  display: flex;
+  gap: 30px;
+}
+
 h2,
 .top-menu a {
   font-family: Raleway, sans-serif;
