@@ -65,9 +65,12 @@ h2,
 
 .info,
 .call,
-.share h2,
-.share a {
+.share h2 {
   text-align: center;
+}
+
+.info::before {
+  content: url("./images/illustration-1.svg");
 }
 
 .info,
@@ -77,6 +80,10 @@ h2,
 
 .share {
   background-color: var(--light-grayish-blue);
+}
+
+.share::before {
+  content: url("./images/illustration-2.svg");
 }
 
 .call {
