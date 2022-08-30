@@ -19,3 +19,17 @@
   --desktop-width: 1440px;
   --mobile-width: 375px;
 }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.call {
+  background-color: var(--desaturated-blue);
+}
+
+footer {
+  background-color: var(--very-dark-blue);
+  color: white;
+}
