@@ -25,6 +25,12 @@ body {
   font-weight: 400;
 }
 
+header,
+section,
+footer {
+  padding: 30px;
+}
+
 h2,
 .top-menu a {
   font-family: Raleway, sans-serif;
@@ -48,7 +54,7 @@ h2,
 
 .call {
   background-color: var(--desaturated-blue);
-  color: var(--light-grayish-blue)
+  color: var(--light-grayish-blue);
 }
 
 footer {
