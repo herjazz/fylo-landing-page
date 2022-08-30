@@ -26,8 +26,15 @@ body {
 }
 
 h2,
-.top-menu a{
-  font-family: 'Raleway', sans-serif;
+.top-menu a {
+  font-family: Raleway, sans-serif;
+}
+
+.info,
+.call,
+.share h2,
+.share a {
+  text-align: center;
 }
 
 .call {
