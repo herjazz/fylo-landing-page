@@ -104,8 +104,8 @@ h2,
 }
 
 .kyle {
-  /* sort out amrgins */
   display: grid;
+  height: 50px;
   grid-template-areas:
     "image name"
     "image title";
@@ -117,7 +117,7 @@ h2,
 
 .kyle img {
   border-radius: 50%;
-  max-height: 35%;
+  max-height: 75%;
   grid-area: image;
 }
 
