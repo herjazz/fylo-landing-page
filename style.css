@@ -136,10 +136,14 @@ h2,
   content: url("./images/illustration-2.svg");
 }
 
+.share p:nth-child(4) {
+  text-align: center;
+}
+
 .blurb a {
   color: var(--moderate-cyan);
-  text-decoration: underline var(--moderate-cyan) 2px;
-  text-underline-offset: 15px;
+  border-bottom: 2px solid var(--moderate-cyan);
+  padding-block-end: 8px;
 }
 
 .blurb a::after {
