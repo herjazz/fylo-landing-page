@@ -48,6 +48,30 @@ main {
   line-height: 1.8rem;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+form > * {
+  padding-block: 12px;
+  border-radius: 5px;
+  font: inherit;
+}
+
+form input {
+  padding-inline-start: 30px;
+  color: var(--light-gray);
+  border: 2px solid var(--very-dark-blue);
+}
+
+form button {
+  border: none;
+  background-color: var(--bright-blue);
+  color: white;
+}
+
 .blurb {
   font-size: 1.3rem;
 }
@@ -113,7 +137,6 @@ h2,
   padding: 30px;
   margin: 30px;
 }
-
 
 .testimonial blockquote::before {
   /* make larger  */
