@@ -48,6 +48,10 @@ main {
   line-height: 1.8rem;
 }
 
+.blurb {
+  font-size: 1.3rem;
+}
+
 header {
   display: flex;
 }
@@ -88,12 +92,14 @@ h2,
 }
 
 .info,
-.share {
+.share h2,
+.testimonial {
   color: var(--very-dark-blue);
 }
 
 .share {
   background-color: var(--light-grayish-blue);
+  color: var(--desaturated-blue);
 }
 
 .share::before {
