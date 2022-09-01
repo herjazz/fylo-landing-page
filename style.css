@@ -48,7 +48,10 @@ main {
   line-height: 1.8rem;
 }
 
+/* Style form */
+
 form {
+  margin-block: 50px;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -110,7 +113,7 @@ h2,
 }
 
 .info h2 {
-/*  Change font-family */
+  /* Change font-family */
   font-size: 2.5rem;
   line-height: 3rem;
 }
@@ -129,6 +132,8 @@ h2,
 .share::before {
   content: url("./images/illustration-2.svg");
 }
+
+/* Style testimonial card */
 
 .testimonial {
   background-color: white;
@@ -182,6 +187,8 @@ h2,
   background-color: var(--desaturated-blue);
   color: var(--light-grayish-blue);
 }
+
+/* Style footer */
 
 footer {
   background-color: var(--very-dark-blue);
