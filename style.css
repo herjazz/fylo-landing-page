@@ -79,6 +79,9 @@ form button {
   font-size: 1.3rem;
 }
 
+.share .blurb {
+  padding-block: 20px;
+}
 header {
   display: flex;
 }
@@ -131,6 +134,17 @@ h2,
 
 .share::before {
   content: url("./images/illustration-2.svg");
+}
+
+.blurb a {
+  color: var(--moderate-cyan);
+  text-decoration: underline var(--moderate-cyan) 2px;
+  text-underline-offset: 15px;
+}
+
+.blurb a::after {
+  content: url("./images/icon-arrow.svg");
+  margin-inline-start: 10px;
 }
 
 /* Style testimonial card */
