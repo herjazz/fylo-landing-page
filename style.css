@@ -34,10 +34,18 @@ a {
   color: inherit;
 }
 
+h2 {
+  padding-block: 40px;
+}
+
 header,
 section,
 footer {
   padding: 30px;
+}
+
+main {
+  line-height: 1.8rem;
 }
 
 header {
@@ -73,6 +81,12 @@ h2,
   content: url("./images/illustration-1.svg");
 }
 
+.info h2 {
+/*  Change font-family */
+  font-size: 2.5rem;
+  line-height: 3rem;
+}
+
 .info,
 .share {
   color: var(--very-dark-blue);
@@ -94,9 +108,6 @@ h2,
   margin: 30px;
 }
 
-.testimonial blockquote {
-  line-height: 1.8rem;
-}
 
 .testimonial blockquote::before {
   /* make larger  */
@@ -105,6 +116,7 @@ h2,
 
 .kyle {
   display: grid;
+  line-height: initial;
   height: 50px;
   grid-template-areas:
     "image name"
