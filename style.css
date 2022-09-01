@@ -111,10 +111,6 @@ h2,
   text-align: center;
 }
 
-.info::before {
-  content: url("./images/illustration-1.svg");
-}
-
 .info h2 {
   /* Change font-family */
   font-size: 2.5rem;
@@ -132,8 +128,8 @@ h2,
   color: var(--desaturated-blue);
 }
 
-.share::before {
-  content: url("./images/illustration-2.svg");
+.share .illustration::before {
+  content: url("./images/bg-curve-mobile.svg");
 }
 
 .share p:nth-child(4) {
