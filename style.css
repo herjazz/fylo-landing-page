@@ -53,7 +53,8 @@ main {
 /* Style form */
 
 form {
-  margin-block: 50px;
+  margin: 50px auto;
+  max-width: 500px;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -159,10 +160,12 @@ h2,
 
 .testimonial {
   background-color: white;
+  /* Change box-shadow */
   box-shadow: 0 3px 15px var(--light-gray);
   border-radius: 8px;
   padding: 30px;
-  margin: 30px;
+  margin: 30px auto;
+  max-width: 500px;
 }
 
 .testimonial blockquote::before {
