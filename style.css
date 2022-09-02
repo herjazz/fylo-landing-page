@@ -1,6 +1,8 @@
 /* Stylesheet for fylo 2-col project */
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -82,12 +84,13 @@ form button {
 .share .blurb {
   padding-block: 20px;
 }
+
 header {
   display: flex;
 }
 
 header .logo {
-  height: 50%;
+  height: 60%;
 }
 
 header nav {
@@ -136,7 +139,7 @@ h2,
   content: url("./images/bg-curve-mobile.svg");
 } */
 
-.share p:nth-child(4) {
+.share p:nth-child(5) {
   text-align: center;
 }
 
@@ -147,6 +150,7 @@ h2,
 }
 
 .blurb a::after {
+  /* make larger */
   content: url("./images/icon-arrow.svg");
   margin-inline-start: 10px;
 }
@@ -162,7 +166,7 @@ h2,
 }
 
 .testimonial blockquote::before {
-  /* make larger  */
+  /* make larger */
   content: url("./images/icon-quotes.svg");
 }
 
