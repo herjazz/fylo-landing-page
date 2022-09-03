@@ -170,6 +170,10 @@ h2,
   padding-block-end: 8px;
 }
 
+.blurb a:hover {
+  filter: brightness(140%);
+}
+
 .blurb a::after {
   /* make larger */
   content: url("./images/icon-arrow.svg");
