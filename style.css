@@ -245,7 +245,7 @@ footer .logo {
   /* Hat tip - https://stackoverflow.com/a/53336754 */
   filter: brightness(0) saturate(100%) invert(100%) sepia(91%) hue-rotate(191deg) contrast(101%);
   padding-block-start: 40px;
-  height: 130%
+  height: 130%;
 }
 
 .contact-info {
@@ -275,3 +275,4 @@ footer .logo {
   width: 50px;
   text-align: center;
   border-radius: 50%;
+}
