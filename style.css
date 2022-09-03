@@ -76,6 +76,8 @@ form button {
   border: none;
   background-color: var(--bright-blue);
   color: white;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
 }
 
 .blurb {
@@ -119,6 +121,10 @@ h2,
   /* Change font-family */
   font-size: 2.5rem;
   line-height: 3rem;
+}
+
+.info form {
+  font-size: 1.3rem;
 }
 
 .illustration img {
