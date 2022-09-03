@@ -262,3 +262,15 @@ footer .logo {
   content: url("./images/icon-email.svg");
   margin-inline-end: 20px;
 }
+
+.social ul {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.fab {
+  border: 1px solid white;
+  padding: 12px;
+  border-radius: 50%;
+}
