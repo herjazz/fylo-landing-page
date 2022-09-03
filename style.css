@@ -84,6 +84,12 @@ form button {
   font-weight: 700;
 }
 
+form button:hover {
+  /* SRC: https://stackoverflow.com/q/16178382 */
+/*    box-shadow: 0 0 100px 100px rgba(255, 255, 255, 0.1) inset; */
+  filter: brightness(140%);
+}
+
 .blurb {
   font-size: 1.3rem;
 }
