@@ -77,7 +77,7 @@ form input {
 }
 
 form input:invalid {
-  border: 1px solid pink;
+  border: 1px solid palevioletred;
 }
 
 input:invalid + .placeholder::before {
@@ -89,7 +89,7 @@ input:invalid + .placeholder::before {
 }
 
 .info .placeholder {
-  color: pink;
+  color: palevioletred;
 }
 
 form button {
