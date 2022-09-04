@@ -74,18 +74,17 @@ form input {
   padding-inline-start: 30px;
   color: var(--light-gray);
   border: 2px solid var(--very-dark-blue);
-  position: relative;
 }
 
 form input:invalid {
   border: 1px solid pink;
 }
 
-form input::after {
-  position: absolute;
+form::before {
   content: "Please check your email";
-  color: pink;
-  top: 20px;
+  text-align: left;
+  font-size: small;
+  margin-block-end: -15px;
 }
 
 form button {
