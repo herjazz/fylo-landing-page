@@ -76,6 +76,10 @@ form input {
   border: 2px solid var(--very-dark-blue);
 }
 
+form input:focus {
+  color: initial;
+}
+
 form input:invalid {
   border: 1px solid palevioletred;
 }
