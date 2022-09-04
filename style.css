@@ -61,7 +61,7 @@ form {
   max-width: 500px;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 10px;
 }
 
 form > * {
@@ -80,11 +80,16 @@ form input:invalid {
   border: 1px solid pink;
 }
 
-form::before {
+input:invalid + .placeholder::before {
+  display: block;
   content: "Please check your email";
   text-align: left;
   font-size: small;
-  margin-block-end: -15px;
+  margin-top: -25px;
+}
+
+.info .placeholder {
+  color: pink;
 }
 
 form button {
