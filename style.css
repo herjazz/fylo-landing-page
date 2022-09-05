@@ -173,9 +173,12 @@ h2,
   color: var(--desaturated-blue);
 }
 
-/* .share .illustration::before {
+.share .illustration::before {
+  display: block;
   content: url("./images/bg-curve-mobile.svg");
-} */
+  margin-block-start: -83px;
+  text-align: center;
+}
 
 .share p:nth-child(5) {
   text-align: center;
