@@ -195,9 +195,15 @@ h2,
 }
 
 .blurb a::after {
-  /* make larger */
-  content: url("./images/icon-arrow.svg");
-  margin-inline-start: 10px;
+  display: inline-block;
+  width: 35px; 
+  height: 30px;
+  content: "";
+  background-image: url("./images/icon-arrow.svg");
+  background-position: 8px 8px;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+/*   margin-inline-start: 10px; */
 }
 
 /* Style testimonial card */
