@@ -309,7 +309,7 @@ footer .logo {
 .social ul {
   display: flex;
   justify-content: center;
-  gap: 25px;
+  gap: 16px;
 }
 
 .fab {
