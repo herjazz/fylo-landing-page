@@ -178,15 +178,6 @@ h2,
   min-width: 100%;
 }
 
-/*
-.share .illustration::before {
-  display: block;
-  content: url("./images/bg-curve-mobile.svg");
-  margin-block-start: -83px;
-  text-align: center;
-}
-*/
-
 .share p:nth-child(5) {
   text-align: center;
 }
@@ -330,4 +321,12 @@ footer .logo {
 .fab:hover {
   color: var(--bright-blue);
   border-color: var(--bright-blue);
+}
+
+/* Rules for desktop */
+
+@media screen and (min-width: var(--desktop-width)) {
+  section {
+    display: flex;
+  }
 }
