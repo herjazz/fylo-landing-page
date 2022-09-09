@@ -173,8 +173,9 @@ h2,
   color: var(--desaturated-blue);
 }
 
-picture img {
-  margin-block-start: -110px;
+.decorative img {
+  display: block;
+  min-width: 100%;
 }
 
 /*
