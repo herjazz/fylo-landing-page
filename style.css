@@ -325,8 +325,49 @@ footer .logo {
 
 /* Rules for desktop */
 
-@media screen and (min-width: var(--desktop-width)) {
+@media screen and (min-width: 600px) {
   section {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;    
+  }
+  
+  .info {
+    grid-template-areas:
+      "head graphic"
+      "text graphic"
+      "form graphic";      
+  }
+  
+  .share {
+    grid-template-areas:
+      "head graphic"
+      "text graphic"
+      "card graphic";      
+  }
+  
+  .call {
+    grid-template-areas:
+      "head form"
+      "text form";
+  }
+  
+  h2 {
+   grid-area: head;
+  }
+  
+  .blurb {
+    grid-area: text;
+  }
+  
+  .illustration {
+    grid-area: graphic;
+  }
+  
+  .testimonial {
+    grid-area: card;
+  }
+
+  form {
+    grid-area: form;
   }
 }
