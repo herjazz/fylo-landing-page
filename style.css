@@ -99,7 +99,7 @@ input:invalid + .placeholder::before {
 form button {
   border: none;
   background-color: var(--bright-blue);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow: rgba(50 50 93 / 25%) 0px 6px 12px -2px, rgba(0 0 0 / 30%) 0px 3px 7px -3px;
   color: white;
   font-family: Raleway, sans-serif;
   font-weight: 700;
@@ -173,12 +173,14 @@ h2,
   color: var(--desaturated-blue);
 }
 
+/*
 .share .illustration::before {
   display: block;
   content: url("./images/bg-curve-mobile.svg");
   margin-block-start: -83px;
   text-align: center;
 }
+*/
 
 .share p:nth-child(5) {
   text-align: center;
@@ -196,21 +198,21 @@ h2,
 
 .blurb a::after {
   display: inline-block;
-  width: 35px; 
+  width: 35px;
   height: 30px;
   content: "";
   background-image: url("./images/icon-arrow.svg");
   background-position: 8px 8px;
   background-repeat: no-repeat;
   background-size: 30px 30px;
-/*   margin-inline-start: 10px; */
+  /*   margin-inline-start: 10px; */
 }
 
 /* Style testimonial card */
 
 .testimonial {
   background-color: white;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(100 100 111 / 20%) 0px 7px 29px 0px;
   border-radius: 8px;
   padding: 30px;
   margin: 30px auto;
