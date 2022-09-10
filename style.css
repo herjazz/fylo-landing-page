@@ -394,4 +394,35 @@ footer .logo {
   form {
     grid-area: form;
   }
+
+  footer {
+    display: grid;
+    grid-template-areas:
+      "logo . . ."
+      "addy menu menu soc"
+      ". attrib attrib .";
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  footer h2 {
+    grid-area: logo;
+  }
+  
+  .contact-info {
+    grid-area: addy;
+  }
+  
+  .bottom-menu {
+    grid-area: menu;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .social {
+    grid-area: soc;
+  }
+
+  .attribution {
+    grid-area: attrib;
+  }
 }
