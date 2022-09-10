@@ -178,7 +178,7 @@ h2,
   min-width: 100%;
 }
 
-.share p:nth-child(5) {
+.copy p:nth-child(3) {
   text-align: center;
 }
 
@@ -357,10 +357,14 @@ footer .logo {
   .share {
     grid-template-areas:
       "head graphic"
-      "text graphic"
+      "copy graphic"
       "card graphic";      
   }
-  
+
+  .copy {
+    grid-area: copy;
+  }
+
   .call {
     grid-template-areas:
       "head form"
