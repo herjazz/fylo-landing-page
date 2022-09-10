@@ -328,37 +328,39 @@ footer .logo {
 @media screen and (min-width: 600px) {
   section {
     display: grid;
-    grid-template-columns: 1fr 1fr;    
+    grid-template-columns: 1fr 1fr;
   }
-  
+
   .info {
     grid-template-areas:
       "head graphic"
       "text graphic"
-      "form graphic";      
+      "form graphic";
   }
-  
+
+  form {
+    grid-area: form;
+  }
+
   .info form {
     display: grid;
-    grid-template-areas:
-      "inp but";
+    grid-template-areas: "inp but";
     grid-template-columns: 2fr 1fr;
   }
-  
+
   .info input {
     grid-area: inp;
   }
-  
+
   .info button {
     grid-area: but;
   }
-  
-  }
+
   .share {
     grid-template-areas:
       "head graphic"
       "copy graphic"
-      "card graphic";      
+      "card graphic";
   }
 
   .copy {
@@ -370,29 +372,25 @@ footer .logo {
       "head form"
       "text form";
   }
-  
+
   h2 {
     grid-area: head;
     text-align: left;
   }
-  
+
   .blurb {
     grid-area: text;
     text-align: left;
     font-size: smaller;
     line-height: 1.3em;
   }
-  
+
   .illustration {
     grid-area: graphic;
   }
-  
+
   .testimonial {
     grid-area: card;
-  }
-
-  form {
-    grid-area: form;
   }
 
   footer {
@@ -407,11 +405,11 @@ footer .logo {
   footer h2 {
     grid-area: logo;
   }
-  
+
   .contact-info {
     grid-area: addy;
   }
-  
+
   .bottom-menu {
     grid-area: menu;
     flex-direction: row;
