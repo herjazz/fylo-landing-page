@@ -338,6 +338,22 @@ footer .logo {
       "form graphic";      
   }
   
+  .info form {
+    display: grid;
+    grid-template-areas:
+      "inp but";
+    grid-template-columns: 2fr 1fr;
+  }
+  
+  .info input {
+    grid-area: inp;
+  }
+  
+  .info button {
+    grid-area: but;
+  }
+  
+  }
   .share {
     grid-template-areas:
       "head graphic"
@@ -352,11 +368,15 @@ footer .logo {
   }
   
   h2 {
-   grid-area: head;
+    grid-area: head;
+    text-align: left;
   }
   
   .blurb {
     grid-area: text;
+    text-align: left;
+    font-size: smaller;
+    line-height: 1.3em;
   }
   
   .illustration {
