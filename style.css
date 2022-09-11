@@ -144,7 +144,8 @@ h2,
 
 .info,
 .call,
-.share h2 {
+.share h2,
+.copy p:nth-child(3) {
   text-align: center;
 }
 
@@ -176,10 +177,6 @@ h2,
 .decorative img {
   display: block;
   min-width: 100%;
-}
-
-.copy p:nth-child(3) {
-  text-align: center;
 }
 
 .blurb a {
@@ -326,9 +323,14 @@ footer .logo {
 /* Rules for desktop */
 
 @media screen and (min-width: 600px) {
+  
   section {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+  
+  section > * {
+    text-align: left;
   }
 
   .info {
@@ -362,6 +364,11 @@ footer .logo {
       "copy graphic"
       "card graphic";
   }
+  
+  .share h2,
+  .copy p:nth-child(3) {
+    text-align: left;
+  }
 
   .copy {
     grid-area: copy;
@@ -375,12 +382,10 @@ footer .logo {
 
   h2 {
     grid-area: head;
-    text-align: left;
   }
 
   .blurb {
     grid-area: text;
-    text-align: left;
     font-size: smaller;
     line-height: 1.3em;
   }
