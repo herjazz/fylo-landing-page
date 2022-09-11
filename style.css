@@ -323,12 +323,11 @@ footer .logo {
 /* Rules for desktop */
 
 @media screen and (min-width: 600px) {
-  
   section {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  
+
   section > * {
     text-align: left;
   }
@@ -364,7 +363,11 @@ footer .logo {
       "copy graphic"
       "card graphic";
   }
-  
+
+  h2 {
+    grid-area: head;
+  }
+
   .share h2,
   .copy p:nth-child(3) {
     text-align: left;
@@ -378,10 +381,6 @@ footer .logo {
     grid-template-areas:
       "head form"
       "text form";
-  }
-
-  h2 {
-    grid-area: head;
   }
 
   .blurb {
